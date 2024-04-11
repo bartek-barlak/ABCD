@@ -34,6 +34,9 @@ int main() {
             case 1:
                 enterNumbers(&number1, &number2);
                 result = number1 - number2;
+                printf("%d - %d = %dsraczka\n", number1, number2, result);
+                enterNumbers(&number1, &number2);
+                result = number1 - number2;
                 printf("%d - %d = %dkupciacipcia123\n", number1, number2, result);
                 break;
             case 2:
